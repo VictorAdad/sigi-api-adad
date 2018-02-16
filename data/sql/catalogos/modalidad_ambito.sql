@@ -1,0 +1,15 @@
+
+-----------------------------------------------------
+-----------------------------------------------------
+---                MODALIDAD_AMBITO               ---
+-----------------------------------------------------
+-----------------------------------------------------
+
+INSERT INTO MODALIDAD_AMBITO(id,MODALIDAD,created,updated) VALUES(MODALIDAD_AMBITO_SEQ.nextval,'Acoso sexual','6/10/17 14:52:05.221000000','6/10/17 14:52:05.221000000');
+INSERT INTO MODALIDAD_AMBITO(id,MODALIDAD,created,updated) VALUES(MODALIDAD_AMBITO_SEQ.nextval,'Hostigamiento sexual','6/10/17 14:52:05.221000000','6/10/17 14:52:05.221000000');
+INSERT INTO MODALIDAD_AMBITO(id,AMBITO,created,updated) VALUES(MODALIDAD_AMBITO_SEQ.nextval,'TRABAJO','6/10/17 14:52:05.221000000','6/10/17 14:52:05.221000000');
+INSERT INTO MODALIDAD_AMBITO(id,AMBITO,created,updated) VALUES(MODALIDAD_AMBITO_SEQ.nextval,'ESCUELA','6/10/17 14:52:05.221000000','6/10/17 14:52:05.221000000');
+INSERT INTO MODALIDAD_AMBITO(id,MODALIDAD,AMBITO,created,updated) VALUES(MODALIDAD_AMBITO_SEQ.nextval,'Acoso sexual','TRABAJO','6/10/17 14:52:05.221000000','6/10/17 14:52:05.221000000');
+INSERT INTO MODALIDAD_AMBITO(id,MODALIDAD,AMBITO,created,updated) VALUES(MODALIDAD_AMBITO_SEQ.nextval,'Acoso sexual','ESCUELA','6/10/17 14:52:05.221000000','6/10/17 14:52:05.221000000');
+INSERT INTO MODALIDAD_AMBITO(id,MODALIDAD,AMBITO,created,updated) VALUES(MODALIDAD_AMBITO_SEQ.nextval,'Hostigamiento sexual','TRABAJO','6/10/17 14:52:05.221000000','6/10/17 14:52:05.221000000');
+INSERT INTO MODALIDAD_AMBITO(id,MODALIDAD,AMBITO,created,updated) VALUES(MODALIDAD_AMBITO_SEQ.nextval,'Hostigamiento sexual','ESCUELA','6/10/17 14:52:05.221000000','6/10/17 14:52:05.221000000');

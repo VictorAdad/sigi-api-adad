@@ -1,0 +1,63 @@
+                            #################################################################
+                            #################################################################
+                            ###                        USUARIO                            ###
+                            #################################################################
+                            #################################################################
+
+
+
+
+#Agencia
+#########################################################################################################################
+GET     /agencia/page          					controllers.AgenciaController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /agencia/options                        controllers.AgenciaController.options()
+GET     /agencia/:id                        	controllers.AgenciaController.get(id:Long)
+PUT     /agencia/:id                        	controllers.AgenciaController.update(id:Long)
+POST    /agencia                            	controllers.AgenciaController.save()
+DELETE  /agencia/:id                        	controllers.AgenciaController.delete(id:Long)
+
+#Fiscalia
+#########################################################################################################################
+GET     /fiscalia/page          			 		controllers.FiscaliaController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /fiscalia/options                        	controllers.FiscaliaController.options()
+GET     /fiscalia/:id                        		controllers.FiscaliaController.get(id:Long)
+PUT     /fiscalia/:id                        		controllers.FiscaliaController.update(id:Long)
+POST    /fiscalia                            		controllers.FiscaliaController.save()
+DELETE  /fiscalia/:id                        		controllers.FiscaliaController.delete(id:Long)
+
+#Distrito
+#########################################################################################################################
+GET     /distrito/page          				controllers.DistritoController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /distrito/options                       controllers.DistritoController.options()
+GET     /distrito/:id                        	controllers.DistritoController.get(id:Long)
+PUT     /distrito/:id                        	controllers.DistritoController.update(id:Long)
+GET     /distrito               				controllers.DistritoController.list()
+POST    /distrito                            	controllers.DistritoController.save()
+DELETE  /distrito/:id                        	controllers.DistritoController.delete(id:Long)
+
+#Bases
+#########################################################################################################################
+GET     /base/page          					controllers.BasesController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /base/options                       	controllers.BasesController.options()
+GET     /base/:id                        		controllers.BasesController.get(id:Long)
+PUT     /base/:id                        		controllers.BasesController.update(id:Long)
+POST    /base                            		controllers.BasesController.save()
+DELETE  /base/:id                        		controllers.BasesController.delete(id:Long)
+
+#Subdireccion
+#########################################################################################################################
+GET     /subdireccion/page          					controllers.SubdireccionController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /subdireccion/options                       	controllers.SubdireccionController.options()
+GET     /subdireccion/:id                       		controllers.SubdireccionController.get(id:Long)
+PUT     /subdireccion/:id                       		controllers.SubdireccionController.update(id:Long)
+POST    /subdireccion                           		controllers.SubdireccionController.save()
+DELETE  /subdireccion/:id                       		controllers.SubdireccionController.delete(id:Long)
+
+#Turno
+#########################################################################################################################
+GET     /turno/page          					controllers.TurnoController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /turno/options                			controllers.TurnoController.options()
+GET     /turno/:id                       		controllers.TurnoController.get(id:Long)
+PUT     /turno/:id                       		controllers.TurnoController.update(id:Long)
+POST    /turno                           		controllers.TurnoController.save()
+DELETE  /turno/:id                       		controllers.TurnoController.delete(id:Long)

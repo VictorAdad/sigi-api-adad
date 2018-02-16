@@ -1,0 +1,49 @@
+                            #################################################################
+                            #################################################################
+                            ###           Solicitud Preliminar Catalogos                  ###
+                            #################################################################
+                            #################################################################
+
+
+#Denuncia Querella
+###############################################################################################################
+GET     /denuncia-querella/page          controllers.DenunciaQuerellaController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /denuncia-querella/options       controllers.DenunciaQuerellaController.options()
+GET     /denuncia-querella/:id           controllers.DenunciaQuerellaController.get(id:Long)
+PUT     /denuncia-querella/:id           controllers.DenunciaQuerellaController.update(id:Long)
+POST    /denuncia-querella               controllers.DenunciaQuerellaController.save()
+DELETE  /denuncia-querella/:id           controllers.DenunciaQuerellaController.delete(id:Long)
+
+
+#Victima Querellante
+###############################################################################################################
+GET     /victima-querellante/page          controllers.VictimaQuerellanteController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /victima-querellante/options       controllers.VictimaQuerellanteController.options()
+GET     /victima-querellante/:id           controllers.VictimaQuerellanteController.get(id:Long)
+PUT     /victima-querellante/:id           controllers.VictimaQuerellanteController.update(id:Long)
+POST    /victima-querellante               controllers.VictimaQuerellanteController.save()
+DELETE  /victima-querellante/:id           controllers.VictimaQuerellanteController.delete(id:Long)
+
+
+#Tipo Examen
+###############################################################################################################
+GET     /tipo-examen/page          controllers.TipoExamenController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /tipo-examen/options       controllers.TipoExamenController.options()
+GET     /tipo-examen/:id           controllers.TipoExamenController.get(id:Long)
+PUT     /tipo-examen/:id           controllers.TipoExamenController.update(id:Long)
+POST    /tipo-examen               controllers.TipoExamenController.save()
+DELETE  /tipo-examen/:id           controllers.TipoExamenController.delete(id:Long)
+
+
+#Perito Material
+###############################################################################################################
+GET     /perito-materia/page          controllers.PeritoMateriaController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /perito-materia/options       controllers.PeritoMateriaController.options()
+GET     /perito-materia/:id           controllers.PeritoMateriaController.get(id:Long)
+PUT     /perito-materia/:id           controllers.PeritoMateriaController.update(id:Long)
+POST    /perito-materia               controllers.PeritoMateriaController.save()
+DELETE  /perito-materia/:id           controllers.PeritoMateriaController.delete(id:Long)
+
+
+
+

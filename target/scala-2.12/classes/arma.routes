@@ -1,0 +1,31 @@
+                            #################################################################
+                            #################################################################
+                            ###                            ARMA                           ###
+                            #################################################################
+                            #################################################################
+
+
+
+#CalibreMecanismo
+###############################################################################################################
+GET     /calibre-mecanismo/page          controllers.CalibreMecanismoController.page(p:Int ?= 0, s ?= "mecanismo", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /calibre-mecanismo/options       controllers.CalibreMecanismoController.options()
+GET     /calibre-mecanismo               controllers.CalibreMecanismoController.list
+GET     /calibre-mecanismo/:id           controllers.CalibreMecanismoController.get(id:Long)
+PUT     /calibre-mecanismo/:id           controllers.CalibreMecanismoController.update(id:Long)
+POST    /calibre-mecanismo               controllers.CalibreMecanismoController.save()
+DELETE  /calibre-mecanismo/:id           controllers.CalibreMecanismoController.delete(id:Long)
+
+
+
+#ClaseArma
+##############################################################################################################
+GET     /clase-arma/page          controllers.ClaseArmaController.page(p:Int ?= 0, s ?= "clase_arma", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /clase-arma/options       controllers.ClaseArmaController.options()
+GET     /clase-arma               controllers.ClaseArmaController.list
+GET     /clase-arma/:id           controllers.ClaseArmaController.get(id:Long)
+PUT     /clase-arma/:id           controllers.ClaseArmaController.update(id:Long)
+POST    /clase-arma               controllers.ClaseArmaController.save()
+DELETE  /clase-arma/:id           controllers.ClaseArmaController.delete(id:Long)
+
+

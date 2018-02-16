@@ -1,0 +1,116 @@
+                            #################################################################
+                            #################################################################
+                            ###                           PERSONA                         ###
+                            #################################################################
+                            #################################################################
+
+
+#Adiccion
+###############################################################################################################
+GET     /adiccion/page          controllers.AdiccionController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /adiccion/options       controllers.AdiccionController.options()
+GET     /adiccion/:id           controllers.AdiccionController.get(id:Long)
+PUT     /adiccion/:id           controllers.AdiccionController.update(id:Long)
+POST    /adiccion               controllers.AdiccionController.save()
+DELETE  /adiccion/:id           controllers.AdiccionController.delete(id:Long)
+
+
+#Alfabetismo
+####################################################################################################
+
+GET     /alfabetismo/page          controllers.AlfabetismoController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /alfabetismo/options       controllers.AlfabetismoController.options()
+GET     /alfabetismo/:id           controllers.AlfabetismoController.get(id:Long)
+PUT     /alfabetismo/:id           controllers.AlfabetismoController.update(id:Long)
+POST    /alfabetismo               controllers.AlfabetismoController.save()
+DELETE  /alfabetismo/:id           controllers.AlfabetismoController.delete(id:Long)
+
+
+#Escolaridad
+###############################################################################################################
+GET     /escolaridad/page          controllers.EscolaridadController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /escolaridad/options       controllers.EscolaridadController.options()
+GET     /escolaridad/:id           controllers.EscolaridadController.get(id:Long)
+PUT     /escolaridad/:id           controllers.EscolaridadController.update(id:Long)
+POST    /escolaridad               controllers.EscolaridadController.save()
+DELETE  /escolaridad/:id           controllers.EscolaridadController.delete(id:Long)
+
+
+#Estado Civil
+###############################################################################################################
+GET     /estado-civil/page          controllers.EstadoCivilController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /estado-civil/options       controllers.EstadoCivilController.options()
+GET     /estado-civil/:id           controllers.EstadoCivilController.get(id:Long)
+PUT     /estado-civil/:id           controllers.EstadoCivilController.update(id:Long)
+POST    /estado-civil               controllers.EstadoCivilController.save()
+DELETE  /estado-civil/:id           controllers.EstadoCivilController.delete(id:Long)
+
+
+#Grupo etnico
+###############################################################################################################
+GET     /grupo-etnico/page          controllers.GrupoEtnicoController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /grupo-etnico/options       controllers.GrupoEtnicoController.options()
+GET     /grupo-etnico/:id           controllers.GrupoEtnicoController.get(id:Long)
+PUT     /grupo-etnico/:id           controllers.GrupoEtnicoController.update(id:Long)
+POST    /grupo-etnico               controllers.GrupoEtnicoController.save()
+DELETE  /grupo-etnico/:id           controllers.GrupoEtnicoController.delete(id:Long)
+
+
+#Idioma
+###############################################################################################################
+GET     /idioma/page          controllers.IdiomaController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /idioma               controllers.IdiomaController.list
+GET     /idioma/:id           controllers.IdiomaController.get(id:Long)
+PUT     /idioma/:id           controllers.IdiomaController.update(id:Long)
+POST    /idioma               controllers.IdiomaController.save()
+DELETE  /idioma/:id           controllers.IdiomaController.delete(id:Long)
+
+
+#Interprete
+###############################################################################################################
+GET     /interprete/page          controllers.InterpreteController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /interprete/options       controllers.InterpreteController.options()
+GET     /interprete/:id           controllers.InterpreteController.get(id:Long)
+PUT     /interprete/:id           controllers.InterpreteController.update(id:Long)
+POST    /interprete               controllers.InterpreteController.save()
+DELETE  /interprete/:id           controllers.InterpreteController.delete(id:Long)
+
+
+#NacionalidadesReligion
+###############################################################################################################
+GET     /nacionalidad/page          controllers.NacionalidadesReligionController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /nacionalidad/options       controllers.NacionalidadesReligionController.options()
+GET     /nacionalidad/:id           controllers.NacionalidadesReligionController.get(id:Long)
+PUT     /nacionalidad/:id           controllers.NacionalidadesReligionController.update(id:Long)
+POST    /nacionalidad               controllers.NacionalidadesReligionController.save()
+DELETE  /nacionalidad/:id           controllers.NacionalidadesReligionController.delete(id:Long)
+
+
+#ocupacion
+###############################################################################################################
+GET     /ocupacion/page          controllers.OcupacionController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /ocupacion/options       controllers.OcupacionController.options()
+GET     /ocupacion/:id           controllers.OcupacionController.get(id:Long)
+PUT     /ocupacion/:id           controllers.OcupacionController.update(id:Long)
+POST    /ocupacion               controllers.OcupacionController.save()
+DELETE  /ocupacion/:id           controllers.OcupacionController.delete(id:Long)
+
+
+#sexo
+###############################################################################################################
+GET     /sexo/page          controllers.SexoController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /sexo/options       controllers.SexoController.options()
+GET     /sexo/:id           controllers.SexoController.get(id:Long)
+PUT     /sexo/:id           controllers.SexoController.update(id:Long)
+POST    /sexo               controllers.SexoController.save()
+DELETE  /sexo/:id           controllers.SexoController.delete(id:Long)
+
+#TipoDetenido
+###############################################################################################################
+GET     /tipo-detenido/page          controllers.TiposDetenidosController.page(p:Int ?= 0, s ?= "tipo_detencion", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /tipo-detenido/options       controllers.TiposDetenidosController.options()
+GET     /tipo-detenido               controllers.TiposDetenidosController.list
+GET     /tipo-detenido/:id           controllers.TiposDetenidosController.get(id:Long)
+PUT     /tipo-detenido/:id           controllers.TiposDetenidosController.update(id:Long)
+POST    /tipo-detenido               controllers.TiposDetenidosController.save()
+DELETE  /tipo-detenido/:id           controllers.TiposDetenidosController.delete(id:Long)

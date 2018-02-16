@@ -1,0 +1,1716 @@
+
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio acuerdo General: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio acuerdo General: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio acuerdo General: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud Examen Psicofísico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio acuerdo General: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio acuerdo General: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio acuerdo General: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio acuerdo General: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio acuerdo General: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Lectura de derechos de victima 
+:Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio Solicitud de Asesor Jurídico: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+registro-presencial: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+ Oficio Solicitud a Servicios Periciales: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de ayuda a atencion a la victima: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio acuerdo General: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio acuerdo General: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}
+Oficio de solicitud de investigación sin apercibimiento: 
+Response status code: 
+500
+Response content: 
+{"errors":{"internalServerError":"No se pudo almacenar el registro"}}

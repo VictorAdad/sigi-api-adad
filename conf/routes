@@ -1,0 +1,11 @@
+GET     /                           controllers.HomeController.index
+
+GET 	/notification/transferir 	controllers.WebsocketController.transferir
+
+->     /v1/base/                    base.Routes
+->     /v1/catalogos/               catalogos.Routes
+->     /v1/documentos/              documentos.Routes
+->     /v1/custom/               	custom.Routes
+
+->     /v1/administration/     		adminControl.Routes
+

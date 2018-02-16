@@ -1,0 +1,90 @@
+                            #################################################################
+                            #################################################################
+                            ###                      MEDIA FILIACION                      ###
+                            #################################################################
+                            #################################################################
+
+#Cabello
+###############################################################################################################
+GET     /cabello/page          controllers.CabelloController.page(p:Int ?= 0, s ?= "cantidad", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /cabello/options       controllers.CabelloController.options()
+GET     /cabello               controllers.CabelloController.list
+GET     /cabello/:id           controllers.CabelloController.get(id:Long)
+PUT     /cabello/:id           controllers.CabelloController.update(id:Long)
+POST    /cabello               controllers.CabelloController.save()
+DELETE  /cabello/:id           controllers.CabelloController.delete(id:Long)
+
+#CaraNariz
+###############################################################################################################
+GET     /cara-nariz/page          controllers.CaraNarizController.page(p:Int ?= 0, s ?= "forma_cara", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /cara-nariz/options       controllers.CaraNarizController.options()
+GET     /cara-nariz	             controllers.CaraNarizController.list
+GET     /cara-nariz/:id           controllers.CaraNarizController.get(id:Long)
+PUT     /cara-nariz/:id           controllers.CaraNarizController.update(id:Long)
+POST    /cara-nariz               controllers.CaraNarizController.save()
+DELETE  /cara-nariz/:id           controllers.CaraNarizController.delete(id:Long)
+
+
+#CejaBoca
+###############################################################################################################
+GET     /ceja-boca/page          controllers.CejaBocaController.page(p:Int ?= 0, s ?= "direccion_ceja", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /ceja-boca/options       controllers.CejaBocaController.options()
+GET     /ceja-boca	             controllers.CejaBocaController.list
+GET     /ceja-boca/:id           controllers.CejaBocaController.get(id:Long)
+PUT     /ceja-boca/:id           controllers.CejaBocaController.update(id:Long)
+POST    /ceja-boca               controllers.CejaBocaController.save()
+DELETE  /ceja-boca/:id           controllers.CejaBocaController.delete(id:Long)
+
+
+#ComplexionPielSangre
+###############################################################################################################
+GET     /complexion-piel-sangre/page               	controllers.ComplexionPielSangreController.page(p:Int ?= 0, s ?= "tipo_complexion", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /complexion-piel-sangre/options       		controllers.ComplexionPielSangreController.options()
+GET     /complexion-piel-sangre	              		controllers.ComplexionPielSangreController.list
+GET     /complexion-piel-sangre/:id           		controllers.ComplexionPielSangreController.get(id:Long)
+PUT     /complexion-piel-sangre/:id           		controllers.ComplexionPielSangreController.update(id:Long)
+POST    /complexion-piel-sangre               		controllers.ComplexionPielSangreController.save()
+DELETE  /complexion-piel-sangre/:id           		controllers.ComplexionPielSangreController.delete(id:Long)
+
+#FrenteMenton
+###############################################################################################################
+GET     /frente-menton/page          controllers.FrenteMentonController.page(p:Int ?= 0, s ?= "altura_frente", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /frente-menton/options       controllers.FrenteMentonController.options()
+GET     /frente-menton               controllers.FrenteMentonController.list
+GET     /frente-menton/:id           controllers.FrenteMentonController.get(id:Long)
+PUT     /frente-menton/:id           controllers.FrenteMentonController.update(id:Long)
+POST    /frente-menton               controllers.FrenteMentonController.save()
+DELETE  /frente-menton/:id           controllers.FrenteMentonController.delete(id:Long)
+
+#LabioOjo
+###############################################################################################################
+GET     /labio-ojo/page               	controllers.LabioOjoController.page(p:Int ?= 0, s ?= "espesor_labio", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /labio-ojo/options       		controllers.LabioOjoController.options()
+GET     /labio-ojo               		controllers.LabioOjoController.list
+GET     /labio-ojo/:id           		controllers.LabioOjoController.get(id:Long)
+PUT     /labio-ojo/:id           		controllers.LabioOjoController.update(id:Long)
+POST    /labio-ojo               		controllers.LabioOjoController.save()
+DELETE  /labio-ojo/:id           		controllers.LabioOjoController.delete(id:Long)
+
+#Oreja
+###############################################################################################################
+GET     /oreja/page          controllers.OrejaController.page(p:Int ?= 0, s ?= "forma", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /oreja/options       controllers.OrejaController.options()
+GET     /oreja	             controllers.OrejaController.list
+GET     /oreja/:id           controllers.OrejaController.get(id:Long)
+PUT     /oreja/:id           controllers.OrejaController.update(id:Long)
+POST    /oreja               controllers.OrejaController.save()
+DELETE  /oreja/:id           controllers.OrejaController.delete(id:Long)
+
+
+#DesaparicionConsumacion
+###############################################################################################################
+GET     /desaparacion-consumacion/page               	controllers.DesaparicionConsumacionController.page(p:Int ?= 0, s ?= "consumacion", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /desaparacion-consumacion/options       		controllers.DesaparicionConsumacionController.options()
+GET     /desaparacion-consumacion	            		controllers.DesaparicionConsumacionController.list
+GET     /desaparacion-consumacion/:id           		controllers.DesaparicionConsumacionController.get(id:Long)
+PUT     /desaparacion-consumacion/:id           		controllers.DesaparicionConsumacionController.update(id:Long)
+POST    /desaparacion-consumacion               		controllers.DesaparicionConsumacionController.save()
+DELETE  /desaparacion-consumacion/:id           		controllers.DesaparicionConsumacionController.delete(id:Long)
+
+

@@ -1,0 +1,13 @@
+                            #################################################################
+                            #################################################################
+                            ###                  DETERMINACION CATALOGOS                  ###
+                            #################################################################
+                            #################################################################
+
+#HiptesisAmbito
+###############################################################################################################
+GET     /hipotesis-ambito/:id           				controllers.HipotesisAmbitoController.get(id:Long)
+GET     /hipotesis-ambito               				controllers.HipotesisAmbitoController.list()
+PUT     /hipotesis-ambito/:id           				controllers.HipotesisAmbitoController.update(id:Long)
+POST    /hipotesis-ambito               				controllers.HipotesisAmbitoController.save()
+DELETE  /hipotesis-ambito/:id           				controllers.HipotesisAmbitoController.delete(id:Long)

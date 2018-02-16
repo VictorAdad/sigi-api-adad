@@ -1,0 +1,23 @@
+                            #################################################################
+                            #################################################################
+                            ###           	     Predenuncia Catalogo                     ###
+                            #################################################################
+                            #################################################################
+
+#TipoLinea
+###############################################################################################################
+GET     /tipo-linea/page          controllers.TipoLineaController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /tipo-linea/options       controllers.TipoLineaController.options()
+GET     /tipo-linea/:id           controllers.TipoLineaController.get(id:Long)
+PUT     /tipo-linea/:id           controllers.TipoLineaController.update(id:Long)
+POST    /tipo-linea               controllers.TipoLineaController.save()
+DELETE  /tipo-linea/:id           controllers.TipoLineaController.delete(id:Long)
+
+#TipoPersona
+###############################################################################################################
+GET     /tipo-persona/page          controllers.TipoPersonaController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /tipo-persona/options       controllers.TipoPersonaController.options()
+GET     /tipo-persona/:id           controllers.TipoPersonaController.get(id:Long)
+PUT     /tipo-persona/:id           controllers.TipoPersonaController.update(id:Long)
+POST    /tipo-persona               controllers.TipoPersonaController.save()
+DELETE  /tipo-persona/:id           controllers.TipoPersonaController.delete(id:Long)

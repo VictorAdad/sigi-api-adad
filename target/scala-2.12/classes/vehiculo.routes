@@ -1,0 +1,49 @@
+                            #################################################################
+                            #################################################################
+                            ###                        VEHICULO                           ###
+                            #################################################################
+                            #################################################################
+
+
+
+
+#MarcaSubMarca
+#########################################################################################################################
+GET     /marca-submarca                            controllers.MarcaSubMarcaController.list
+GET     /marca-submarca/page                       controllers.MarcaSubMarcaController.page(p:Int ?= 0, s ?= "marca", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /marca-submarca/options                    controllers.MarcaSubMarcaController.options()
+GET     /marca-submarca/:id                        controllers.MarcaSubMarcaController.get(id:Long)
+PUT     /marca-submarca/:id                        controllers.MarcaSubMarcaController.update(id:Long)
+POST    /marca-submarca                            controllers.MarcaSubMarcaController.save()
+DELETE  /marca-submarca/:id                        controllers.MarcaSubMarcaController.delete(id:Long)
+
+
+#MotivoColorClase
+###############################################################################################################
+GET     /motivo-color-clase/options       controllers.MotivoColorClaseController.options()
+GET     /motivo-color-clase               controllers.MotivoColorClaseController.list
+GET     /motivo-color-clase/:id           controllers.MotivoColorClaseController.get(id:Long)
+PUT     /motivo-color-clase/:id           controllers.MotivoColorClaseController.update(id:Long)
+POST    /motivo-color-clase               controllers.MotivoColorClaseController.save()
+DELETE  /motivo-color-clase/:id           controllers.MotivoColorClaseController.delete(id:Long)
+
+
+#ProcedenciaAseguradora
+#########################################################################################################################
+GET     /procedencia-aseguradora                   controllers.ProcedenciaAseguradoraController.list
+GET     /procedencia-aseguradora/page              controllers.ProcedenciaAseguradoraController.page(p:Int ?= 0, s ?= "aseguradora", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /procedencia-aseguradora/options           controllers.ProcedenciaAseguradoraController.options()
+GET     /procedencia-aseguradora/:id               controllers.ProcedenciaAseguradoraController.get(id:Long)
+PUT     /procedencia-aseguradora/:id               controllers.ProcedenciaAseguradoraController.update(id:Long)
+POST    /procedencia-aseguradora                   controllers.ProcedenciaAseguradoraController.save()
+DELETE  /procedencia-aseguradora/:id               controllers.ProcedenciaAseguradoraController.delete(id:Long)
+
+
+#TipoUsoTipoVehiculo
+#########################################################################################################################
+GET     /tipo-uso-vehiculo                         controllers.TipoUsoTipoVehiculoController.list
+GET     /tipo-uso-vehiculo/options                 controllers.TipoUsoTipoVehiculoController.options()
+GET     /tipo-uso-vehiculo/:id                     controllers.TipoUsoTipoVehiculoController.get(id:Long)
+PUT     /tipo-uso-vehiculo/:id                     controllers.TipoUsoTipoVehiculoController.update(id:Long)
+POST    /tipo-uso-vehiculo                         controllers.TipoUsoTipoVehiculoController.save()
+DELETE  /tipo-uso-vehiculo/:id                     controllers.TipoUsoTipoVehiculoController.delete(id:Long)

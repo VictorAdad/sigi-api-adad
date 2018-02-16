@@ -1,0 +1,125 @@
+<configuration>
+  <conversionRule conversionWord="coloredLevel" converterClass="play.api.libs.logback.ColoredLevel" />
+
+  <!--Archivo Application-->
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <filter class="ch.qos.logback.classic.filter.LevelFilter">
+      <level>DEBUG</level>
+      <OnMismatch>DENY</OnMismatch>
+      <OnMatch>NEUTRAL</OnMatch>
+    </filter>
+    <file>${application.home:-.}/logs/application.log</file>
+    <encoder>
+        <pattern>%date [%level] from %logger in %thread - %message%n%xException</pattern>
+    </encoder>
+  </appender>
+
+
+  <!--Archivo error-->
+  <appender name="ERROR_FILE" class="ch.qos.logback.core.FileAppender">
+    <filter class="ch.qos.logback.classic.filter.LevelFilter">
+      <level>ERROR</level>
+      <OnMismatch>DENY</OnMismatch>
+      <OnMatch>NEUTRAL</OnMatch>
+    </filter>
+    <file>${application.home:-.}/logs/error.log</file>
+    <encoder>
+        <pattern>%date [%level] from %logger in %thread - %message%n%xException</pattern>
+    </encoder>
+  </appender>
+
+  <!--Consola Error-->
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <filter class="ch.qos.logback.classic.filter.LevelFilter">
+      <level>ERROR</level>
+      <OnMismatch>DENY</OnMismatch>
+      <OnMatch>NEUTRAL</OnMatch>
+    </filter>
+    <encoder>
+      <pattern>%coloredLevel %logger{15} %date{[dd-MM-yyyy HH:mm:ss]} - %message%n%xException{10}</pattern>
+    </encoder>
+  </appender>
+
+  <!--Consola Debug-->
+  <appender name="STDOUT_DEBUG" class="ch.qos.logback.core.ConsoleAppender">
+    <filter class="ch.qos.logback.classic.filter.LevelFilter">
+      <level>DEBUG</level>
+      <onMatch>ACCEPT</onMatch>
+      <onMismatch>DENY</onMismatch>
+    </filter>
+    <encoder>
+        <pattern>%coloredLevel %logger{15} %date{[dd-MM-yyyy HH:mm:ss]} - %message%n%xException{10}</pattern>
+    </encoder>
+  </appender>
+
+  <appender name="ASYNCFILE" class="ch.qos.logback.classic.AsyncAppender">
+    <appender-ref ref="FILE" />
+  </appender>
+
+  <appender name="ASYNCFILE_ERROR" class="ch.qos.logback.classic.AsyncAppender">
+    <appender-ref ref="ERROR_FILE" />
+  </appender>
+
+  <appender name="ASYNCSTDOUT" class="ch.qos.logback.classic.AsyncAppender">
+    <appender-ref ref="STDOUT" />
+  </appender>
+
+  <appender name="ASYNCSTDOUT_DEBUG" class="ch.qos.logback.classic.AsyncAppender">
+    <appender-ref ref="STDOUT_DEBUG" />
+  </appender>
+
+
+  <!-- Controllers -->
+  <logger name="controllers" level="ERROR" >
+    <appender-ref ref="ASYNCFILE_ERROR" />
+    <appender-ref ref="ASYNCSTDOUT"/>
+  </logger>
+  <logger name="controllers" level="DEBUG" additivity="false">
+    <appender-ref ref="ASYNCSTDOUT_DEBUG"/>
+  </logger>
+  <logger name="c.BaseController" level="OFF" />
+
+  <!-- Repository -->
+  <logger name="repository" level="ERROR" >
+    <appender-ref ref="ASYNCFILE_ERROR" />
+    <appender-ref ref="ASYNCSTDOUT"/>
+  </logger>
+  <logger name="repository" level="DEBUG" additivity="false">
+    <appender-ref ref="ASYNCSTDOUT_DEBUG"/>
+  </logger>
+  <logger name="r.BaseRepository" level="OFF"/>
+  <!-- core -->
+  <logger name="core.util.email.Email" level="OFF" />
+
+  <!-- models -->
+  <logger name="models.CatalogoSincronizacion" level="OFF" />
+  
+  <logger name="org.jdbcdslog.ConnectionLogger" level="OFF"  /> <!-- Won' log connections -->
+  <logger name="org.jdbcdslog.StatementLogger"  level="OFF" /> <!-- Will log all statements -->
+  <logger name="org.jdbcdslog.ResultSetLogger"  level="OFF"  /> <!-- Won' log result sets -->
+  
+
+  <logger name="io.ebean.SQL" level="OFF" />
+
+  <!-- Off these ones as they are annoying, and anyway we manage configuration ourselves -->
+  <logger name="com.avaje.ebean.config.PropertyMapLoader" level="OFF" />
+  <logger name="com.avaje.ebeaninternal.server.core.XmlConfigLoader" level="OFF" />
+  <logger name="com.avaje.ebeaninternal.server.lib.BackgroundThread" level="OFF" />
+  <logger name="akka.actor" level="OFF" />
+
+  <logger name="org.apache.http.client.protocol" level="ERROR" />
+
+  <logger name="repository" level="DEBUG" additivity="false">
+    <appender-ref ref="ASYNCFILE" />
+  </logger>
+
+  <logger name="controllers" level="DEBUG" additivity="false">
+    <appender-ref ref="ASYNCFILE" />
+  </logger>
+
+  <root level="ERROR">
+    <appender-ref ref="ASYNCSTDOUT"/>
+    <appender-ref ref="ASYNCSTDOUT_DEBUG"/>
+  </root>
+
+</configuration>

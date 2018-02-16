@@ -1,0 +1,118 @@
+                            #################################################################
+                            #################################################################
+                            ###                         CATALOGOS                         ###
+                            #################################################################
+                            #################################################################
+
+->     /arma/               			arma.Routes
+->     /lugar/               			lugar.Routes
+->     /media-filiacion/                mediaFiliacion.Routes
+->     /persona/               			persona.Routes
+->     /relacion/               		relacion.Routes
+->     /vehiculo/               		vehiculo.Routes
+->     /usuario/	               		usuario.Routes
+->     /solicitud-preliminar/	        solicitudPreliminarCatalog.Routes
+->     /entrevista/	               		entrevistaCatalog.Routes
+->     /predenuncia/	               	predenunciaCatalog.Routes
+->     /determinacion/	               	determinacionCatalog.Routes
+
+
+
+#Colonia
+###############################################################################################################
+GET     /colonia/municipio/:idMunicipio/options       				controllers.ColoniaController.options(idMunicipio: Long)
+GET     /colonia/page          										controllers.ColoniaController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /colonia/:id           										controllers.ColoniaController.get(id:Long)
+GET     /colonia              										controllers.ColoniaController.list()
+GET     /colonia/municipio/:idMunicipio              				controllers.ColoniaController.listByMunicipio(idMunicipio: Long)
+PUT     /colonia/:id           										controllers.ColoniaController.update(id:Long)
+POST    /colonia               										controllers.ColoniaController.save()
+DELETE  /colonia/:id           										controllers.ColoniaController.delete(id:Long)
+
+
+#Estado
+###############################################################################################################
+GET     /estado/page                		controllers.EstadoController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /estado/pais/:idPais/options       	controllers.EstadoController.options(idPais: Long)
+GET     /estado/:id           				controllers.EstadoController.get(id:Long)
+GET     /estado              				controllers.EstadoController.list()
+PUT     /estado/:id           				controllers.EstadoController.update(id:Long)
+POST    /estado               				controllers.EstadoController.save()
+DELETE  /estado/:id           				controllers.EstadoController.delete(id:Long)
+
+
+#Municipio
+###############################################################################################################
+GET     /municipio/page          				controllers.MunicipioController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /municipio/estado/:idEstado/options     controllers.MunicipioController.options(idEstado: Long)
+GET     /municipio/:id           				controllers.MunicipioController.get(id:Long)
+GET     /municipio               				controllers.MunicipioController.list()
+PUT     /municipio/:id           				controllers.MunicipioController.update(id:Long)
+POST    /municipio               				controllers.MunicipioController.save()
+DELETE  /municipio/:id           				controllers.MunicipioController.delete(id:Long)
+
+
+#Pais
+###############################################################################################################
+GET     /pais/page                                  controllers.PaisController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /pais/options                               controllers.PaisController.options()
+GET     /pais/:id                                   controllers.PaisController.get(id:Long)
+PUT     /pais/:id                                   controllers.PaisController.update(id:Long)
+POST    /pais                                       controllers.PaisController.save()
+DELETE  /pais/:id                                   controllers.PaisController.delete(id:Long)
+
+
+#Localidad
+###############################################################################################################
+GET     /localidad/page          						controllers.LocalidadController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /localidad/pais/:idPais/options       			controllers.LocalidadController.options(idPais: Long)
+GET     /localidad/municipio/:idMunicipio/options   	controllers.LocalidadController.optionsByMunicipio(idMunicipio: Long)
+GET     /localidad/:id           						controllers.LocalidadController.get(id:Long)
+GET     /localidad              						controllers.LocalidadController.list()
+PUT     /localidad/:id           						controllers.LocalidadController.update(id:Long)
+POST    /localidad               						controllers.LocalidadController.save()
+DELETE  /localidad/:id           						controllers.LocalidadController.delete(id:Long)
+
+#NacionalidadesReligion
+###############################################################################################################
+GET     /nacionalidad-religion               				controllers.NacionalidadesReligionController.list
+GET     /nacionalidad-religion/:id           				controllers.NacionalidadesReligionController.get(id:Long)
+PUT     /nacionalidad-religion/:id           				controllers.NacionalidadesReligionController.update(id:Long)
+POST    /nacionalidad-religion               				controllers.NacionalidadesReligionController.save()
+DELETE  /nacionalidad-religion/:id           				controllers.NacionalidadesReligionController.delete(id:Long)
+
+
+#Delitos
+#########################################################################################################################
+GET     /delitos/search                            controllers.Delitos.getByName(name:String ?= "")
+GET     /delitos/page                              controllers.Delitos.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /delitos/:id                               controllers.Delitos.get(id:Long)
+GET     /delitos                                   controllers.Delitos.list()
+PUT     /delitos/:id                               controllers.Delitos.update(id:Long)
+POST    /delitos                                   controllers.Delitos.save()
+DELETE  /delitos/:id                               controllers.Delitos.delete(id:Long)
+
+#TiposDomicilios
+###############################################################################################################
+GET     /tipo-domicilio/page          controllers.TiposDomiciliosController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /tipo-domicilio/options       controllers.TiposDomiciliosController.options()
+GET     /tipo-domicilio               controllers.TiposDomiciliosController.list
+GET     /tipo-domicilio/:id           controllers.TiposDomiciliosController.get(id:Long)
+PUT     /tipo-domicilio/:id           controllers.TiposDomiciliosController.update(id:Long)
+POST    /tipo-domicilio               controllers.TiposDomiciliosController.save()
+DELETE  /tipo-domicilio/:id           controllers.TiposDomiciliosController.delete(id:Long)
+
+#TipoInterviniente
+#########################################################################################################################
+GET     /tipos-intervinientes/page                      	controllers.TipoIntervinienteController.page(p:Int ?= 0, s ?= "tipo", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /tipos-intervinientes/options              			controllers.TipoIntervinienteController.options()
+GET     /tipos-intervinientes/:id                  			controllers.TipoIntervinienteController.get(id:Long)
+PUT     /tipos-intervinientes/:id                  			controllers.TipoIntervinienteController.update(id:Long)
+POST    /tipos-intervinientes                      			controllers.TipoIntervinienteController.save()
+DELETE  /tipos-intervinientes/:id                  			controllers.TipoIntervinienteController.delete(id:Long)
+
+#TiposDomicilios
+###############################################################################################################
+GET     /sincronizacion               controllers.CatalogosSincronizacion.list
+
+

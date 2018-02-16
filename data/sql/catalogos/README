@@ -1,0 +1,35 @@
+#### CATÁLOGOS IMPORTADOS DE SIGIPPEM ###
+
+Se separaron todos los catálogos en archivos individuales para facilitar el manejo de cada uno de estos y sus datos.
+En caso de realizar cambio en algún catálogo lo podemos hacer directamente en el catálogo al que pertenece y podemos
+rastrear los cambios realizados.
+
+Dentro de /ubicaciones se encuentran los scripts para insertar:
+
+- Paises
+- Estados
+- Municipios
+- Colonias
+- Localidades
+
+Se separan en su propio directorio por ser sumamente pesados.
+
+#### ¿CÓMO GENERAR EL ARCHIVO datosInicio.sql?
+
+Ubicado en sigi-api/data/sql/catalogos correr el siguiente comando para generar el archivo datosInicio.sql:
+
+cat *.sql > datosInicio.sql
+
+Si se requiere crear un solo archivo concentrado para los datos de ubicaciones, correr el mismo comando
+ubicados en sigi-api/data/sql/catalogos/ubicaciones:
+
+cat *.sql > datosInicioUbicaciones.sql
+
+####################
+    IMPORTANTE
+####################
+
+No subir los archivos concentrados (datosInicio.sql) al repositorio para no cargarlo con archivos únicos pesados,
+mejor dejarlo como está y cuando se requiera simplemente generarlo con los catálogos actualizados.
+
+

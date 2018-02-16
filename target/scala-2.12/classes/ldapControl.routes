@@ -1,0 +1,12 @@
+                            #################################################################
+                            #################################################################
+                            ###                         Admin                             ###
+                            #################################################################
+                            #################################################################
+
+
+GET     /agencias						controllers.LdapController.getAllAgencies()
+GET     /fiscalias/agencias				controllers.LdapController.getAgencies(f: String)
+GET     /fiscalias/agencias/usuarios	controllers.LdapController.getMembers(f: String)
+GET     /usuarios						controllers.LdapController.getUsers(f: String)
+

@@ -1,0 +1,14 @@
+                            #################################################################
+                            #################################################################
+                            ###           		  Entrevistas Catalogos                   ###
+                            #################################################################
+                            #################################################################
+
+#PresentoLlamada
+###############################################################################################################
+GET     /presento-llamadas/page          		controllers.PresentoLlamadaController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /presento-llamadas/options            	controllers.PresentoLlamadaController.options()
+GET     /presento-llamadas/:id           		controllers.PresentoLlamadaController.get(id:Long)
+PUT     /presento-llamadas/:id           		controllers.PresentoLlamadaController.update(id:Long)
+POST    /presento-llamadas               		controllers.PresentoLlamadaController.save()
+DELETE  /presento-llamadas/:id           		controllers.PresentoLlamadaController.delete(id:Long)

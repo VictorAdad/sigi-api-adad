@@ -1,0 +1,18 @@
+-----------------------------------------------------
+-----------------------------------------------------
+--- ADICCION
+--- Catálogo de interoperabilidad
+--- http://sigejupe2.pjedomex.gob.mx/sigejupe/catalogos/drogas.json
+--- ID homologados de acuerdo a TSJ (21/12/17)
+-----------------------------------------------------
+-----------------------------------------------------
+Insert into ADICCION (ID,NOMBRE,ACTIVO,CREATED,UPDATED) values (1,'ALCOHOL',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+Insert into ADICCION (ID,NOMBRE,ACTIVO,CREATED,UPDATED) values (7,'ANFETAMINAS',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+Insert into ADICCION (ID,NOMBRE,ACTIVO,CREATED,UPDATED) values (3,'COCAINA',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+Insert into ADICCION (ID,NOMBRE,ACTIVO,CREATED,UPDATED) values (5,'CRACK',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+Insert into ADICCION (ID,NOMBRE,ACTIVO,CREATED,UPDATED) values (4,'HEROINA',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+Insert into ADICCION (ID,NOMBRE,ACTIVO,CREATED,UPDATED) values (6,'HONGOS',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+Insert into ADICCION (ID,NOMBRE,ACTIVO,CREATED,UPDATED) values (9,'LCD',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+Insert into ADICCION (ID,NOMBRE,ACTIVO,CREATED,UPDATED) values (2,'MARIHUANA',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+Insert into ADICCION (ID,NOMBRE,ACTIVO,CREATED,UPDATED) values (8,'METANFETAMINAS',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+alter sequence ADICCION_SEQ increment by 9;

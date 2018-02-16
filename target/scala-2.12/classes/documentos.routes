@@ -1,0 +1,69 @@
+                            #################################################################
+                            #################################################################
+                            ###                         DOCUMENTOS                        ###
+                            #################################################################
+                            #################################################################
+
+
+
+#Formatos
+###############################################################################################################           				
+GET     /formatos/save/:id/:formato               	controllers.Documentos.save(id:Long,formato:String)
+
+#Documentos
+#########################################################################################################################
+GET     /documento/:uuidOracle/:contentType/:tipo   controllers.Documentos.descargarDocumento( uuidOracle:String,  contentType:String, fileName:String ?= "documento.pdf", tipo:String)
+
+#Acuerdos
+#########################################################################################################################
+POST	/acuerdos/save/:id               		  	controllers.DocsAcuerdos.save(id:Long)
+
+#Archivo temporal
+#########################################################################################################################
+POST	/archivos-temporales/save/:id            	controllers.DocsArchivosTemporales.save(id:Long)
+
+#Entrevista
+#########################################################################################################################
+POST	/entrevistas/save/:id            			controllers.DocsEntrevistas.save(id:Long)
+
+#Caso
+#########################################################################################################################
+POST	/casos/save/:id            					controllers.DocsNics.save(id:Long)
+GET     /casos/:id/page                  			controllers.DocsNics.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "asc", f ?= "", tr:Int ?= 10)
+
+
+#Predenuncias
+#########################################################################################################################
+POST	/predenuncias/save/:id            			controllers.DocsPredenuncias.save(id:Long)
+
+#Solicitud preliminar de acuerdo general
+#########################################################################################################################
+POST	/solicitudes-pre-acuerdos/save/:id          controllers.DocsSolPreAcuerdos.save(id:Long)
+
+#Facultad de no investigar
+#########################################################################################################################
+POST	/facultades-no-investigar/save/:id          controllers.DocsFacultadesNoInvestigar.save(id:Long)
+
+#No ejercicio de la acción penal
+#########################################################################################################################
+POST	/no-ejercicio-accion/save/:id          		controllers.DocsNoEjerciciosAcciones.save(id:Long)
+
+#Solicitud preliminar de inspección
+#########################################################################################################################
+POST	/solicitudes-pre-inspecciones/save/:id   	controllers.DocsSolPreInspecciones.save(id:Long)
+
+#Solicitud preliminar de periciales
+#########################################################################################################################
+POST	/solicitudes-pre-pericial/save/:id   		controllers.DocsSolPrePericiales.save(id:Long)
+
+#Solicitud preliminar de policias
+#########################################################################################################################
+POST	/solicitudes-pre-policias/save/:id   		controllers.DocsSolPrePolicias.save(id:Long)
+
+#Solicitud preliminar de registro general
+#########################################################################################################################
+POST	/solicitudes-pre-registros/save/:id   		controllers.DocsSolPreRegistros.save(id:Long)
+
+#Solicitud preliminar de requerimiento de información
+#########################################################################################################################
+POST	/solicitudes-pre-info/save/:id   			controllers.DocsSolPreReqInfos.save(id:Long)

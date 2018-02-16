@@ -1,0 +1,17 @@
+                            #################################################################
+                            #################################################################
+                            ###                            LUGAR                          ###
+                            #################################################################
+                            #################################################################
+
+
+
+#DetalleLugar
+#########################################################################################################################
+GET     /detalle-lugar                             controllers.DetalleLugarController.list
+GET     /detalle-lugar/page                        controllers.DetalleLugarController.page(p:Int ?= 0, s ?= "tipo_lugar", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /detalle-lugar/options                     controllers.DetalleLugarController.options()
+GET     /detalle-lugar/:id                         controllers.DetalleLugarController.get(id:Long)
+PUT     /detalle-lugar/:id                         controllers.DetalleLugarController.update(id:Long)
+POST    /detalle-lugar                             controllers.DetalleLugarController.save()
+DELETE  /detalle-lugar/:id                         controllers.DetalleLugarController.delete(id:Long)

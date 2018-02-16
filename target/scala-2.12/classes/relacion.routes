@@ -1,0 +1,165 @@
+                            #################################################################
+                            #################################################################
+                            ###                         RELACION                          ###
+                            #################################################################
+                            #################################################################
+
+
+#Clasificacion Delito
+###############################################################################################################
+GET     /clasificacion-delito/page          controllers.ClasificacionDelitoController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /clasificacion-delito/options       controllers.ClasificacionDelitoController.options()
+GET     /clasificacion-delito	            controllers.ClasificacionDelitoController.list
+GET     /clasificacion-delito/:id           controllers.ClasificacionDelitoController.get(id:Long)
+PUT     /clasificacion-delito/:id           controllers.ClasificacionDelitoController.update(id:Long)
+POST    /clasificacion-delito               controllers.ClasificacionDelitoController.save()
+DELETE  /clasificacion-delito/:id           controllers.ClasificacionDelitoController.delete(id:Long)
+
+
+#Clasificacion Delito Orden
+###############################################################################################################
+GET     /clasificacion-delito-orden/page          controllers.ClasificacionDelitoOrdenController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /clasificacion-delito-orden/options       controllers.ClasificacionDelitoOrdenController.options()
+GET     /clasificacion-delito-orden	              controllers.ClasificacionDelitoOrdenController.list
+GET     /clasificacion-delito-orden/:id           controllers.ClasificacionDelitoOrdenController.get(id:Long)
+PUT     /clasificacion-delito-orden/:id           controllers.ClasificacionDelitoOrdenController.update(id:Long)
+POST    /clasificacion-delito-orden               controllers.ClasificacionDelitoOrdenController.save()
+DELETE  /clasificacion-delito-orden/:id           controllers.ClasificacionDelitoOrdenController.delete(id:Long)
+
+
+#Concurso Delito
+###############################################################################################################
+GET     /concurso-delito/page          controllers.ConcursoDelitoController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /concurso-delito/options       controllers.ConcursoDelitoController.options()
+GET     /concurso-delito	           controllers.ConcursoDelitoController.list
+GET     /concurso-delito/:id           controllers.ConcursoDelitoController.get(id:Long)
+PUT     /concurso-delito/:id           controllers.ConcursoDelitoController.update(id:Long)
+POST    /concurso-delito               controllers.ConcursoDelitoController.save()
+DELETE  /concurso-delito/:id           controllers.ConcursoDelitoController.delete(id:Long)
+
+
+#Conducta Detalle
+###############################################################################################################
+GET     /conducta-detalle/page          controllers.ConductaDetalleController.page(p:Int ?= 0, s ?= "conducta", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /conducta-detalle/options       controllers.ConductaDetalleController.options()
+GET     /conducta-detalle	            controllers.ConductaDetalleController.list
+GET     /conducta-detalle/:id           controllers.ConductaDetalleController.get(id:Long)
+PUT     /conducta-detalle/:id           controllers.ConductaDetalleController.update(id:Long)
+POST    /conducta-detalle               controllers.ConductaDetalleController.save()
+DELETE  /conducta-detalle/:id           controllers.ConductaDetalleController.delete(id:Long)
+
+
+#Efecto Detalle
+###############################################################################################################
+GET     /efecto-detalle/page          controllers.EfectoDetalleController.page(p:Int ?= 0, s ?= "efecto", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /efecto-detalle/options       controllers.EfectoDetalleController.options()
+GET     /efecto-detalle	              controllers.EfectoDetalleController.list
+GET     /efecto-detalle/:id           controllers.EfectoDetalleController.get(id:Long)
+PUT     /efecto-detalle/:id           controllers.EfectoDetalleController.update(id:Long)
+POST    /efecto-detalle               controllers.EfectoDetalleController.save()
+DELETE  /efecto-detalle/:id           controllers.EfectoDetalleController.delete(id:Long)
+
+
+
+#Elemento Comision
+###############################################################################################################
+GET     /elemento-comision/page          controllers.ElementoComisionController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /elemento-comision/options       controllers.ElementoComisionController.options()
+GET     /elemento-comision	             controllers.ElementoComisionController.list
+GET     /elemento-comision/:id           controllers.ElementoComisionController.get(id:Long)
+PUT     /elemento-comision/:id           controllers.ElementoComisionController.update(id:Long)
+POST    /elemento-comision               controllers.ElementoComisionController.save()
+DELETE  /elemento-comision/:id           controllers.ElementoComisionController.delete(id:Long)
+
+#Forma Accion
+###############################################################################################################
+GET     /forma-accion/page          controllers.FormaAccionController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /forma-accion/options       controllers.FormaAccionController.options()
+GET     /forma-accion	              controllers.FormaAccionController.list
+GET     /forma-accion/:id           controllers.FormaAccionController.get(id:Long)
+PUT     /forma-accion/:id           controllers.FormaAccionController.update(id:Long)
+POST    /forma-accion               controllers.FormaAccionController.save()
+DELETE  /forma-accion/:id           controllers.FormaAccionController.delete(id:Long)
+
+#Forma Comision
+###############################################################################################################
+GET     /forma-comision/page          controllers.FormaComisionController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /forma-comision/options       controllers.FormaComisionController.options()
+GET     /forma-comision	              controllers.FormaComisionController.list
+GET     /forma-comision/:id           controllers.FormaComisionController.get(id:Long)
+PUT     /forma-comision/:id           controllers.FormaComisionController.update(id:Long)
+POST    /forma-comision               controllers.FormaComisionController.save()
+DELETE  /forma-comision/:id           controllers.FormaComisionController.delete(id:Long)
+
+
+#Forma Conducta
+###############################################################################################################
+GET     /forma-conducta/page          controllers.FormaConductaController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /forma-conducta/options       controllers.FormaConductaController.options()
+GET     /forma-conducta	              controllers.FormaConductaController.list
+GET     /forma-conducta/:id           controllers.FormaConductaController.get(id:Long)
+PUT     /forma-conducta/:id           controllers.FormaConductaController.update(id:Long)
+POST    /forma-conducta               controllers.FormaConductaController.save()
+DELETE  /forma-conducta/:id           controllers.FormaConductaController.delete(id:Long)
+
+
+#Grado Participacion
+###############################################################################################################
+GET     /grado-participacion/page          controllers.GradoParticipacionController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /grado-participacion/options       controllers.GradoParticipacionController.options()
+GET     /grado-participacion	           controllers.GradoParticipacionController.list
+GET     /grado-participacion/:id           controllers.GradoParticipacionController.get(id:Long)
+PUT     /grado-participacion/:id           controllers.GradoParticipacionController.update(id:Long)
+POST    /grado-participacion               controllers.GradoParticipacionController.save()
+DELETE  /grado-participacion/:id           controllers.GradoParticipacionController.delete(id:Long)
+
+
+#Modalidad Ambito
+###############################################################################################################
+GET     /modalidad-ambito/page          controllers.ModalidadAmbitoController.page(p:Int ?= 0, s ?= "modalidad", o ?= "asc", f ?= "", tr:Int ?= 10)
+#GET     /modalidad-ambito/options       controllers.ModalidadAmbitoController.options()
+GET     /modalidad-ambito	            controllers.ModalidadAmbitoController.list
+GET     /modalidad-ambito/:id           controllers.ModalidadAmbitoController.get(id:Long)
+PUT     /modalidad-ambito/:id           controllers.ModalidadAmbitoController.update(id:Long)
+POST    /modalidad-ambito               controllers.ModalidadAmbitoController.save()
+DELETE  /modalidad-ambito/:id           controllers.ModalidadAmbitoController.delete(id:Long)
+
+
+#Modalidad Delito
+###############################################################################################################
+GET     /modalidad-delito/page          controllers.ModalidadDelitoController.page(p:Int ?= 0, s ?= "nombre", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /modalidad-delito/options       controllers.ModalidadDelitoController.options()
+GET     /modalidad-delito	            controllers.ModalidadDelitoController.list
+GET     /modalidad-delito/:id           controllers.ModalidadDelitoController.get(id:Long)
+PUT     /modalidad-delito/:id           controllers.ModalidadDelitoController.update(id:Long)
+POST    /modalidad-delito               controllers.ModalidadDelitoController.save()
+DELETE  /modalidad-delito/:id           controllers.ModalidadDelitoController.delete(id:Long)
+
+
+#Tipo Transportacion
+###############################################################################################################
+GET     /tipo-transportacion/page          controllers.TipoTransportacionController.page(p:Int ?= 0, s ?= "tipo", o ?= "asc", f ?= "", tr:Int ?= 10)
+GET     /tipo-transportacion/options       controllers.TipoTransportacionController.options()
+GET     /tipo-transportacion	           controllers.TipoTransportacionController.list
+GET     /tipo-transportacion/:id           controllers.TipoTransportacionController.get(id:Long)
+PUT     /tipo-transportacion/:id           controllers.TipoTransportacionController.update(id:Long)
+POST    /tipo-transportacion               controllers.TipoTransportacionController.save()
+DELETE  /tipo-transportacion/:id           controllers.TipoTransportacionController.delete(id:Long)
+
+
+#Violencia Genero
+###############################################################################################################
+GET     /violencia-genero	            controllers.ViolenciaGeneroController.list
+GET     /violencia-genero/:id           controllers.ViolenciaGeneroController.get(id:Long)
+PUT     /violencia-genero/:id           controllers.ViolenciaGeneroController.update(id:Long)
+POST    /violencia-genero               controllers.ViolenciaGeneroController.save()
+DELETE  /violencia-genero/:id           controllers.ViolenciaGeneroController.delete(id:Long)
+
+
+#DesaparicionConsumacion
+###############################################################################################################
+GET     /desaparicion-consumacion/:id           				controllers.DesaparicionConsumacionController.get(id:Long)
+GET     /desaparicion-consumacion               				controllers.DesaparicionConsumacionController.list()
+PUT     /desaparicion-consumacion/:id           				controllers.DesaparicionConsumacionController.update(id:Long)
+POST    /desaparicion-consumacion               				controllers.DesaparicionConsumacionController.save()
+DELETE  /desaparicion-consumacion/:id           				controllers.DesaparicionConsumacionController.delete(id:Long)

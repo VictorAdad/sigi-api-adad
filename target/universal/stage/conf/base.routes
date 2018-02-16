@@ -1,0 +1,276 @@
+
+                            #################################################################
+                            #################################################################
+                            ###                   NOTICIAS DE HECHO                       ###
+                            #################################################################
+                            #################################################################
+
+#Casos
+#########################################################################################################################
+GET     /casos/:id                                             controllers.Casos.get(id:Long)
+GET     /casos/propietario/:id                                 controllers.Casos.getPropietario(id:Long)
+GET     /casos/:id/all                                         controllers.Casos.getAll(id:Long)
+GET     /casos/:id/documentos                                  controllers.Casos.getDocuments(id:Long)
+GET     /casos                                                 controllers.Casos.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /casos/titulares/:usr/page                             controllers.Casos.pageByTitular(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10, usr:String)
+GET     /casos/fiscalia/:fiscalia/page                         controllers.Casos.pageByFiscalia(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10, fiscalia:String)
+PUT     /casos/:id                                             controllers.Casos.update(id:Long)
+POST    /casos                                                 controllers.Casos.save()
+
+
+#Titulares
+#########################################################################################################################
+GET     /titulares/:id                                 controllers.Titulares.get(id:Long)
+GET     /titulares/:id/page                            controllers.Titulares.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /titulares/:id                                 controllers.Titulares.update(id:Long)
+POST    /titulares                                     controllers.Titulares.save()
+
+
+
+#Personas-Casos
+#########################################################################################################################
+GET     /personas-casos                                               controllers.PersonasCasos.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /personas-casos/casos/:id/page                                controllers.PersonasCasos.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /personas-casos/:id                                           controllers.PersonasCasos.get(id:Long)
+GET     /personas-casos/casos/:id                                     controllers.PersonasCasos.list(id:Long)
+GET     /personas-casos/casos/:id/tipos-intervinientes/:idTipo        controllers.PersonasCasos.listByCaseAndTipoInterviniente(id:Long, idTipo: Long)
+PUT     /personas-casos/:id                                           controllers.PersonasCasos.update(id:Long)
+POST    /personas-casos                                               controllers.PersonasCasos.save()
+
+
+#Delitos-Casos
+#########################################################################################################################
+GET     /delitos-casos                            controllers.DelitosCasos.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /delitos-casos/casos/:id/page             controllers.DelitosCasos.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /delitos-casos/:id                        controllers.DelitosCasos.get(id:Long)
+GET     /delitos-casos/:id/casos/:idCaso          controllers.DelitosCasos.setDefault(id: Long, idCaso:Long)
+GET     /delitos-casos/casos/:id                  controllers.DelitosCasos.list(id:Long)
+PUT     /delitos-casos/:id                        controllers.DelitosCasos.update(id:Long)
+POST    /delitos-casos                            controllers.DelitosCasos.save()
+
+#Armas
+#########################################################################################################################
+GET     /armas/:id                                 controllers.Armas.get(id:Long)
+GET     /armas/casos/:id                           controllers.Armas.list(id:Long)
+GET     /armas                                     controllers.Armas.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /armas/casos/:id/page                      controllers.Armas.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /armas/:id                                 controllers.Armas.update(id:Long)
+POST    /armas                                     controllers.Armas.save()
+
+
+#Relaciones
+#########################################################################################################################
+GET     /relaciones/:id                            controllers.Relaciones.get(id:Long)
+GET     /relaciones                                controllers.Relaciones.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /relaciones/casos/:id/page                 controllers.Relaciones.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /relaciones/:id                            controllers.Relaciones.update(id:Long)
+POST    /relaciones                                controllers.Relaciones.save()
+
+#Vehiculos
+#########################################################################################################################
+GET     /vehiculos/:id                             controllers.Vehiculos.get(id:Long)
+GET     /vehiculos/casos/:id                       controllers.Vehiculos.list(id:Long)
+GET     /vehiculos                                 controllers.Vehiculos.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /vehiculos/casos/:id/page                  controllers.Vehiculos.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /vehiculos/:id                             controllers.Vehiculos.update(id:Long)
+POST    /vehiculos                                 controllers.Vehiculos.save()
+
+#Lugares
+#########################################################################################################################
+GET     /lugares/:id                             controllers.Lugares.get(id:Long)
+GET     /lugares/casos/:id                       controllers.Lugares.list(id:Long)
+GET     /lugares                                 controllers.Lugares.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /lugares/casos/:id/page                  controllers.Lugares.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /lugares/:id                             controllers.Lugares.update(id:Long)
+POST    /lugares                                 controllers.Lugares.save()
+
+
+#Personas
+#########################################################################################################################
+GET     /personas/:id                            controllers.Personas.get(id:Long)
+GET     /personas                                controllers.Personas.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /personas/:id                            controllers.Personas.update(id:Long)
+POST    /personas                                controllers.Personas.save()
+
+#Relacion Tipo Persona
+###############################################################################################################
+GET      /tipo-relacion-persona/page               controllers.TipoRelacionesPersonas.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+#GET     /tipo-relacion-persona/options            controllers.TipoRelacionesPersonas.options()
+GET      /tipo-relacion-persona/casos/:id/page     controllers.TipoRelacionesPersonas.pageByCase(id:Long, p:Int ?= 0, s ?= "caso.created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET      /tipo-relacion-persona                    controllers.TipoRelacionesPersonas.list
+GET      /tipo-relacion-persona/:id                controllers.TipoRelacionesPersonas.get(id:Long)
+PUT      /tipo-relacion-persona/:id                controllers.TipoRelacionesPersonas.update(id:Long)
+POST     /tipo-relacion-persona                    controllers.TipoRelacionesPersonas.save()
+
+
+
+
+                            #################################################################
+                            #################################################################
+                            ###                       PREDENUNCIA                         ###
+                            #################################################################
+                            #################################################################
+
+#Predenuncia
+#########################################################################################################################
+GET     /predenuncias/:id                               controllers.Predenuncias.get(id:Long)
+GET     /predenuncias/casos/:id/page                    controllers.Predenuncias.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /predenuncias                                   controllers.Predenuncias.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /predenuncias/casos/:id                         controllers.Predenuncias.getByCase(id:Long)
+PUT     /predenuncias/:id                               controllers.Predenuncias.update(id:Long)
+POST    /predenuncias                                   controllers.Predenuncias.save()
+
+
+                            #################################################################
+                            #################################################################
+                            ###                  SOLICITUD PREELIMINAR                    ###
+                            #################################################################
+                            #################################################################
+
+
+#SolicitudesPreAcuerdos
+#########################################################################################################################
+GET     /solicitudes-pre-acuerdos/:id                  controllers.SolicitudesPreAcuerdos.get(id:Long)
+GET     /solicitudes-pre-acuerdos/casos/:id/page       controllers.SolicitudesPreAcuerdos.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /solicitudes-pre-acuerdos                      controllers.SolicitudesPreAcuerdos.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /solicitudes-pre-acuerdos/:id                  controllers.SolicitudesPreAcuerdos.update(id:Long)
+POST    /solicitudes-pre-acuerdos                      controllers.SolicitudesPreAcuerdos.save()
+
+#SolicitudesPreInspecciones
+#########################################################################################################################
+GET     /solicitudes-pre-inspecciones/:id                  controllers.SolicitudesPreInspecciones.get(id:Long)
+GET     /solicitudes-pre-inspecciones/casos/:id/page       controllers.SolicitudesPreInspecciones.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /solicitudes-pre-inspecciones                      controllers.SolicitudesPreInspecciones.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /solicitudes-pre-inspecciones/:id                  controllers.SolicitudesPreInspecciones.update(id:Long)
+POST    /solicitudes-pre-inspecciones                      controllers.SolicitudesPreInspecciones.save()
+
+#SolicitudesPreRegistro
+#########################################################################################################################
+GET     /solicitudes-pre-registros/:id                   controllers.SolicitudesPreRegistros.get(id:Long)
+GET     /solicitudes-pre-registros/casos/:id/page        controllers.SolicitudesPreRegistros.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /solicitudes-pre-registros                       controllers.SolicitudesPreRegistros.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /solicitudes-pre-registros/:id                   controllers.SolicitudesPreRegistros.update(id:Long)
+POST    /solicitudes-pre-registros                       controllers.SolicitudesPreRegistros.save()
+
+#SolicitudesPrePericiales
+#########################################################################################################################
+GET     /solicitudes-pre-pericial/:id                  controllers.SolicitudesPrePericiales.get(id:Long)
+GET     /solicitudes-pre-pericial/casos/:id/page       controllers.SolicitudesPrePericiales.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /solicitudes-pre-pericial                      controllers.SolicitudesPrePericiales.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /solicitudes-pre-pericial/:id                  controllers.SolicitudesPrePericiales.update(id:Long)
+POST    /solicitudes-pre-pericial                      controllers.SolicitudesPrePericiales.save()
+
+#SolicitudesPrePolicias
+#########################################################################################################################
+GET     /solicitudes-pre-policias/:id                  controllers.SolicitudesPrePolicias.get(id:Long)
+GET     /solicitudes-pre-policias/casos/:id/page       controllers.SolicitudesPrePolicias.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /solicitudes-pre-policias                      controllers.SolicitudesPrePolicias.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /solicitudes-pre-policias/:id                  controllers.SolicitudesPrePolicias.update(id:Long)
+POST    /solicitudes-pre-policias                      controllers.SolicitudesPrePolicias.save()
+
+#SolicitudesPreReqInfo
+#########################################################################################################################
+GET     /solicitudes-pre-info/:id                       controllers.SolicitudesPreReqInfo.get(id:Long)
+GET     /solicitudes-pre-info/casos/:id/page            controllers.SolicitudesPreReqInfo.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /solicitudes-pre-info                           controllers.SolicitudesPreReqInfo.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /solicitudes-pre-info/:id                       controllers.SolicitudesPreReqInfo.update(id:Long)
+POST    /solicitudes-pre-info                           controllers.SolicitudesPreReqInfo.save()
+
+
+                            #################################################################
+                            #################################################################
+                            ###                       DETERMINACION                      ###
+                            #################################################################
+                            #################################################################
+
+#Acuerdos
+#########################################################################################################################
+GET     /acuerdos/:id                                          controllers.Acuerdos.get(id:Long)
+GET     /acuerdos/casos/:id/page                               controllers.Acuerdos.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /acuerdos/casos/:id/tipos                              controllers.Acuerdos.listByCaseAndTipo(id:Long, tipo ?="")
+GET     /acuerdos                                              controllers.Acuerdos.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /acuerdos/:id                                          controllers.Acuerdos.update(id:Long)
+POST    /acuerdos                                              controllers.Acuerdos.save()
+
+#ArchivosTemporales
+#########################################################################################################################
+GET     /archivos-temporales/:id                               controllers.ArchivosTemporales.get(id:Long)
+GET     /archivos-temporales/casos/:id/page                    controllers.ArchivosTemporales.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /archivos-temporales                                   controllers.ArchivosTemporales.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /archivos-temporales/:id                               controllers.ArchivosTemporales.update(id:Long)
+POST    /archivos-temporales                                   controllers.ArchivosTemporales.save()
+
+#FacultadesNoInvestigar
+#########################################################################################################################
+GET     /facultades-no-investigar/:id                             controllers.FacultadesNoInvestigar.get(id:Long)
+GET     /facultades-no-investigar/casos/:id/page                  controllers.FacultadesNoInvestigar.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /facultades-no-investigar                                 controllers.FacultadesNoInvestigar.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /facultades-no-investigar/:id                             controllers.FacultadesNoInvestigar.update(id:Long)
+POST    /facultades-no-investigar                                 controllers.FacultadesNoInvestigar.save()
+
+#NoEjercicioAccion
+#########################################################################################################################
+GET     /no-ejercicio-accion/:id                             controllers.NoEjerciciosAccionPenal.get(id:Long)
+GET     /no-ejercicio-accion/casos/:id/page                  controllers.NoEjerciciosAccionPenal.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /no-ejercicio-accion                                 controllers.NoEjerciciosAccionPenal.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /no-ejercicio-accion/:id                             controllers.NoEjerciciosAccionPenal.update(id:Long)
+POST    /no-ejercicio-accion                                 controllers.NoEjerciciosAccionPenal.save()
+
+                            #################################################################
+                            #################################################################
+                            ###                        ENTREVISTA                         ###
+                            #################################################################
+                            #################################################################
+
+
+#Entrevistas
+#########################################################################################################################
+GET     /entrevistas/:id                  controllers.Entrevistas.get(id:Long)
+GET     /entrevistas                      controllers.Entrevistas.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /entrevistas/casos/:id/page       controllers.Entrevistas.pageByCase(id:Long, p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+PUT     /entrevistas/:id                  controllers.Entrevistas.update(id:Long)
+POST    /entrevistas                      controllers.Entrevistas.save()
+
+                            #################################################################
+                            #################################################################
+                            ###                        USUARIO                            ###
+                            #################################################################
+                            #################################################################
+
+
+#Usuarios
+#########################################################################################################################
+GET     /usuarios/:id                            controllers.Usuarios.get(id:Long)
+GET     /usuarios/page                           controllers.Usuarios.page(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10)
+GET     /usuarios/agencias/:id/options           controllers.Usuarios.optionsByAgency(id: Long)
+PUT     /usuarios/:id                            controllers.Usuarios.update(id:Long)
+POST    /usuarios                                controllers.Usuarios.save()
+
+
+                            #################################################################
+                            #################################################################
+                            ###                        RELACION                           ###
+                            #################################################################
+                            #################################################################
+
+
+#DetalleDelitos
+#########################################################################################################################
+PUT     /detalle-delitos/:id                  controllers.DetalleDelitos.update(id:Long)
+#POST    /detalle-delitos                      controllers.DetalleDelitos.save()
+
+
+
+                            #################################################################
+                            #################################################################
+                            ###                      NOTIFICACIONES                       ###
+                            #################################################################
+                            #################################################################
+
+
+#Notificaciones
+#########################################################################################################################
+GET     /notificaciones/usuario/:usr/page     controllers.NotificacionesController.pageByUser(p:Int ?= 0, s ?= "created", o ?= "desc", f ?= "", tr:Int ?= 10, usr:String)
+GET     /notificaciones/usuario/:usr/sin-leer controllers.NotificacionesController.countSinLeer( usr:String)
+
+POST    /notificaciones/usuario/:id/leido     controllers.NotificacionesController.countLeido( id:Long)
